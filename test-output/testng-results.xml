@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44253" started-at="2020-09-02T08:27:51 IST" finished-at="2020-09-02T08:28:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44253" started-at="2020-09-02T08:27:51 IST" finished-at="2020-09-02T08:28:35 IST">
+      <class name="com.pomkart.tests.KartPageTests">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.pomkart.tests.KartPageTests@6f1de4c7]" name="openApp" is-config="true" duration-ms="21428" started-at="2020-09-02T08:27:51 IST" finished-at="2020-09-02T08:28:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="tc1_Verify(java.util.Hashtable)[pri:0, instance:com.pomkart.tests.KartPageTests@6f1de4c7]" name="tc1_Verify" duration-ms="22645" started-at="2020-09-02T08:28:12 IST" data-provider="getTC1Data" finished-at="2020-09-02T08:28:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Size=L, Qty=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_Verify -->
+      </class> <!-- com.pomkart.tests.KartPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
